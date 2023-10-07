@@ -1,0 +1,26 @@
+._car h1{
+    margin-bottom: 5px;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgba(254, 253, 253, 0.3);
+}
+.custom-button{
+    transition: 1s;
+    background-color: black !important;
+}
+.custom-button:hover{
+    background-color: #0d6efd !important;
+    color: white !important;
+}
+
+@media only screen and (max-width: 600px) {
+    #_Indicators{
+      position: relative;
+      top: 0 !important;
+    }
+    #btn1{
+        position: relative;
+        top: 0 !important;
+    }
+  }
+  

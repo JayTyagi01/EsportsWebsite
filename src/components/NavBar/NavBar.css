@@ -1,0 +1,12 @@
+.scrolled-bg {
+    background-color: #ffffff; /* Change to the desired background color */
+    transition: background-color 0.3s ease; /* Add a smooth transition */
+    color: #000;
+    z-index: 2
+}
+
+.scrolled-text {
+    transition: background-color 0.3s ease; /* Add a smooth transition */
+    color: #000;
+    z-index: 2
+}

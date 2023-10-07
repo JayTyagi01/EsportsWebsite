@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@layer base {
+  img {
+    @apply w-full;
+  }
+
+  .section {
+    @apply container mx-auto py-24 px-6;
+  }
+
+  .animate-slide:hover {
+    animation-play-state: paused;
+  }
+}
+
+.member:hover > div {
+  @apply bg-[#778899] bg-opacity-80;
+}
+
+.member:hover .member-content {
+  @apply opacity-100;
+}
+
+@layer components {
+  .hamburger div:first-child {
+    @apply rotate-45 translate-y-1.5;
+  }
+
+  .hamburger div:last-child {
+    @apply -rotate-45 -translate-y-1;
+  }
+}
